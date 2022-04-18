@@ -3,13 +3,13 @@ import { Observable,EMPTY } from 'rxjs';
 import { getFirestore } from 'firebase-admin/firestore';
 // import { getAllDocs } from '../firebase/firestore';
 //User model
-import { User } from "./user";
+import { UserSmall } from "./user";
 
 const db = getFirestore();
 
 export interface Message{
-    from:User,
-    to?:User,
+    from:UserSmall,
+    to?:UserSmall,
     body:string,
     createdAt:Date
 }

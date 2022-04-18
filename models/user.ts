@@ -1,5 +1,5 @@
-import {UserCredential} from 'firebase/auth'
-
-export interface User extends UserCredential{
+export interface UserSmall{
+    email:string;
     username:string;
+    photoUrl?:string;
 }

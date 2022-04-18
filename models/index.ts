@@ -1,7 +1,7 @@
 import { Room } from "./room";
-import { User } from "./user";
+import { UserSmall } from "./user";
 
 export{
     Room,
-    User
+    UserSmall
 }

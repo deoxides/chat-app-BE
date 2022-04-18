@@ -4,5 +4,7 @@
 
 .env
 
+/tests
+
 ##Google credentials
 /firebase/credentials.json
